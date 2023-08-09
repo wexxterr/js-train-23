@@ -33,7 +33,7 @@ class SMSMessenger {
 // Клас EmailMessenger відповідає за відправку повідомлень за допомогою Email.
 class EmailMessenger {
   // Створюємо статичний метод EmailMessenger який приймає один параметр - message, та виводить в консоль `Відправлено Email: ${message}`
-  static EmailMessenger(message) {
+  static sendMessage(message) {
     console.log(`Відправлено Email: ${message}`)
   }
 }
